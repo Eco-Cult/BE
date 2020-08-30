@@ -15,10 +15,11 @@ var async = require('async');
 app.get("/api/food_Carbon_Emission", function(req, res) {
     var sql = `select * from foodprint;`;
 //     sqlQueryRun(sql, res);
-    con.query(sql, [true], (error, res, fields) => {
+    con.query(sql, [true], (error, result, fields) => {
   if (error) {
     return console.error(error.message);
   }
+        res.send(result);
   
 });
 
