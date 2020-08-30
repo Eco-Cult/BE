@@ -19,7 +19,7 @@ app.get("/api/food_Carbon_Emission", function(req, res) {
   if (error) {
     return console.error(error.message);
   }
-  console.log(res);
+  
 });
 
 con.end();
