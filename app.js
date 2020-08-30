@@ -13,7 +13,7 @@ var async = require('async');
 
 //API to get food carbon footprint for all food items
 app.get("/api/food_Carbon_Emission", function(req, res) {
-    var sql = `select * from carbcon.foodprint;`;
+    var sql = `select * from foodprint;`;
 //     sqlQueryRun(sql, res);
     con.query(sql, [true], (error, result, fields) => {
   if (error) {
