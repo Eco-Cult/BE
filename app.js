@@ -11,7 +11,7 @@ app.use(bodyParser.raw());
 var async = require('async');
 
 
-//API to get food emission for all the raw food items - Data table used is food_information
+//API to get food carbon footprint for all food items
 app.get("/api/food_Carbon_Emission", function(req, res) {
     var sql = `select * from carbcon.foodprint;`;
 //     sqlQueryRun(sql, res);
