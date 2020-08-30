@@ -12,6 +12,6 @@ var async = require('async');
 
 //API to get food emission for all the raw food items - Data table used is food_information
 app.get("/api/food_Carbon_Emission", function(req, res) {
-    var sql = `select * from food_information;`;
+    var sql = `select * from carbcon;`;
     sqlQueryRun(sql, res);
 });
