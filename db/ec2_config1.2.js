@@ -10,5 +10,5 @@ var connection = mysql.createConnection({
     multipleStatements: true
 });
 
-//exported- to be used outside this file
+//external implementation requirement 
 module.exports = connection;
