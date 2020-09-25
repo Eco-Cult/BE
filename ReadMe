@@ -1,0 +1,12 @@
+This is the Backend Repository for Carbcon Web App
+
+The repository has Javascript logs for the connection to AWS host server. The EC2 instance is used to host the web a
+NodeJs is implemented for security purposes. It will help with scalibility for the app. The event-driven architecture 
+processes multiple concurrent requests efficiently without clogging the RAM. 
+
+The future goal for a multi-platform application, lesser loading and response time is acheived by this framework. 
+One of our endgoal is to have no downtime for the app. And NodeJs will help us acheive that. 
+
+
+
+The backend deployment is documented in form of a PDF, which has step-by-step procedure of the EC2 instance setup and the NodeJs interaction. 
