@@ -11,7 +11,7 @@ app.use(bodyParser.raw());
 var async = require('async');
 
 
-//API to get food carbon footprint for all food items
+//The RDS is requested to extract the food item details based on categories) 
 app.get("/api/food_Carbon_Emission", function(req, res) {
     var sql = `select * from foodprint;`;
 //     sqlQueryRun(sql, res);
