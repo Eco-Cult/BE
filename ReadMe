@@ -8,5 +8,9 @@ The future goal for a multi-platform application, lesser loading and response ti
 One of our endgoal is to have no downtime for the app. And NodeJs will help us acheive that. 
 
 
+For iteration 3, the applicaton has been hosted on Digital Ocean. The domain name is CARBCON.tech 
+A similar database structure has been designed on this hosting service to fulfill Carbcons' requirements. The web app is secured by an active SSL certificate. The
+application has been deployed by using a set of instructions to prevent Cross-Site Scrypting (XSS). This helps with keeping our services integrial and authentic. 
+
 
 The backend deployment is documented in form of a PDF, which has step-by-step procedure of the EC2 instance setup and the NodeJs interaction. 
